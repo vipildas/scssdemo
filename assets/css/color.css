@@ -1,0 +1,130 @@
+:root {
+  --theme-color:#C7A17E;
+  --primary-color:#01193D;
+  --secondary-color:#FE6809;
+  --white-color:#FFFFFF;
+  --base-color:#666666;
+  --higer-secondary-color:#454A53;
+
+
+  --primary-font: 'Oswald', sans-serif;
+  --secondary-font: 'Open Sans', sans-serif;
+}
+
+/* template-color */
+
+.scroll-top{
+  background: var(--theme-color);
+}
+.company___left .vedio__button a span {
+  color: var(--white-color);
+}
+.main-menu .navigation > li > a:hover{
+	color: var(--theme-color) !important;
+}
+.main-menu .navigation > li > ul > li > a:hover,
+.main-menu .navigation > li > .megamenu li > a:hover{
+  color: var(--white-color) !important;
+}
+.main-menu .navigation > li > ul > li > ul > li > a:hover{
+  color: var(--white-color) !important;
+}
+
+.handle-preloader.home-1{
+	background: var(--theme-color);;
+}
+
+.sticky-header{
+  background: var(--primary-color);
+}
+.main-menu .navigation > li > ul > li:hover > a, 
+.main-menu .navigation > li > .megamenu li:hover > a,
+.main-header .sticky-header .main-menu .navigation > li ul li a:hover{
+  color: var(--white-color) !important;
+}
+
+.main-header.style-one .menu-right-content .user-btn a,
+.main-header.style-one .menu-right-content .cart-btn a{
+  color: var(--white-color);
+}
+.main-menu .navigation > li > a{
+  color:var(--primary-color);
+}
+.main-menu .navigation > li.current > a{
+  color: var(--theme-color);
+}
+
+.main-menu .navigation > li > ul > li > a,
+.main-menu .navigation > li > .megamenu li > a{
+  color:var(--white-color);
+}
+
+.main-menu .navigation li.dropdown .dropdown-btn{
+  color:#3b3b3b;
+}
+.menu-area .mobile-nav-toggler {
+  color: #3786ff;
+}
+.menu-area .mobile-nav-toggler .icon-bar{
+  background-color: var(--theme-color);
+}
+.main-header .sticky-header .main-menu .navigation > li ul li a{
+  color: var(--white-color) !important;
+}
+.main-header.style-two .sticky-header .main-menu .navigation > li ul li a{
+  color: var(--white-color) !important;
+}
+.main-header .sticky-header .main-menu .navigation > li a,
+.main-header .sticky-header .main-menu .navigation > li a:before{
+  color: var(--white-color) !important;
+} 
+.main-header .sticky-header .search-box-btn,
+.main-header .sticky-header .cart-btn a,
+.main-header .sticky-header .user-btn a{
+  color: var(--white-color) !important;
+}
+.nav-outer .mobile-nav-toggler{
+  color:#3786ff;
+}
+.mobile-menu .menu-backdrop{
+  background: var(--primary-color);
+}
+.mobile-menu .menu-box{
+  background: var(--primary-color);
+}
+.mobile-menu .close-btn {
+  color: var(--white-color);
+  border: 1px solid var(--white-color);
+}
+.mobile-menu .navigation li > a{
+  color: var(--white-color);
+}
+.mobile-menu .navigation li > a:before{
+  border-left:5px solid var(--white-color);
+}
+.mobile-menu .navigation li.dropdown .dropdown-btn span{
+  color: var(--primary-color);
+}
+.mobile-menu .navigation li.dropdown .dropdown-btn{
+  color: var(--primary-color);
+  background: var(--white-color);
+}
+.mobile-menu .navigation li > a:hover{
+  color: var(--white-color) !important;
+}
+.mobile-menu .navigation li.dropdown .dropdown-btn.open{
+  background:var(--white-color); 
+  color: var(--white-color);
+}
+.mobile-menu .social-links li a{
+  color:var(--white-color);
+}
+.mobile-menu .contact-info h4 {
+  color: var(--white-color);
+}
+.mobile-menu .contact-info ul li {
+    color: rgba(255,255,255,0.80);
+}
+.mobile-menu .contact-info ul li a{
+  color: rgba(255,255,255,0.80);
+}
